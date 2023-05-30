@@ -750,6 +750,14 @@ video {
   padding: 3.5rem;
 }
 
+.p-7 {
+  padding: 1.75rem;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -976,6 +984,10 @@ video {
 
   .md\:p-2 {
     padding: 0.5rem;
+  }
+
+  .md\:p-14 {
+    padding: 3.5rem;
   }
 
   .md\:text-left {
