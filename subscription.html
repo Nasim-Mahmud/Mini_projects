@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Subscription</title>
+  </head>
+  <body>
+    <!-- Background container -->
+    <div
+      class="flex flex-col md:flex-row items-center justify-center bg-slate-200 h-screen my-auto"
+    >
+      <!-- Card -->
+      <div class="p-1 px-1 bg-slate-900 rounded-2xl mb-1 md:mb-none">
+        <!-- Flex container -->
+        <div class="md:flex-row rounded-l-xl">
+          <!-- Image -->
+          <img
+            src="./images/img.png"
+            alt=""
+            class="object-fit h-80 md:h-64 rounded-xl transform hover:scale-105 duration-200 hover:rounded-xl md:rounded-l-xl md:rounded-r-xl"
+          />
+        </div>
+      </div>
+
+      <!-- Description container -->
+      <div class="p-2 mx-1 bg-slate-900 rounded-2xl">
+        <!-- Flex container -->
+        <div class="flex flex-col md:flex-row rounded-l-xl">
+          <!-- Description -->
+          <div class="p-6 md:p-12">
+            <h1 class="font-serif text-xl font-medium text-white text-left">
+              Get nutrition and exercise advice via email
+            </h1>
+            <p
+              class="max-w-xs my-4 text-sm leading-5 tracking-wide text-center text-white md:text-left"
+            >
+              Eat better and work out more, Become a subscriber to the Diets and
+              Fitness newsletter.
+            </p>
+            <div
+              class="flex flex-col md:flex-row pt-3 md:space-x-3 md:space-y-0 space-y-4"
+            >
+              <input
+                type="text"
+                placeholder="Enter your email address"
+                class="p-2 px-4 text-center md:text-left bg-slate-900 border border-slate-300 focus:outline-none placholder:text-left text-white placeholder:text-sm text-left"
+              />
+              <button
+                class="px-5 py-2 text-sm font-medium rounded-md text-slate-900 bg-slate-300 hover:bg-slate-900 hover:text-white duration-500 border hover:border-slate-300"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
