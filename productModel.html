@@ -10,17 +10,17 @@
   <body>
     <div class="flex items-center justify-center bg-slate-100 h-screen">
       <div
-        class="bg-white border border-transparent rounded-2xl p-12 shadow-2xl"
+        class="bg-white border border-transparent rounded-2xl p-16 shadow-2xl"
       >
         <div class="flex flex-row">
           <div class="mr-10">
             <img
               src="./images/headphone.png"
               alt=""
-              class="h-52 hover:scale-105 transform duration-300"
+              class="w-60 hover:scale-105 transform duration-300 mx-auto"
             />
           </div>
-          <div class="space-y-4">
+          <div class="space-y-3">
             <h3
               class="capitalize border border-black bg-black text-sm text-white rounded-2xl w-28 text-center py-1"
             >
@@ -51,9 +51,20 @@
               ></div>
               <div class="text-sm">50+ pcs. in stock</div>
             </div>
-            <div>
-              <button>Add to cart</button>
-              <button>Add to wishlist</button>
+            <!-- Buttons -->
+            <div class="flex flex-row space-x-4">
+              <button
+                class="flex items-center justify-center space-x-3 border-2 border-gray-300 rounded-lg px-5 py-3 transition-all shadow-sm hover:-translate-y-0.5 hover:shadow-lg"
+              >
+                <img src="./images/weight.png" alt="" class="w-8" />
+                <span>Add to cart</span>
+              </button>
+              <button
+                class="flex items-center justify-center space-x-3 border-2 border-gray-300 rounded-lg px-5 py-3 transition-all shadow-sm hover:-translate-y-0.5 hover:shadow-lg"
+              >
+                <img src="./images/heart.png" alt="" class="w-8" />
+                <span>Add to wishlist</span>
+              </button>
             </div>
           </div>
         </div>
