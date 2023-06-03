@@ -710,6 +710,14 @@ video {
   width: 2.5rem;
 }
 
+.w-44 {
+  width: 11rem;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
 .max-w-sm {
   max-width: 24rem;
 }
@@ -974,6 +982,11 @@ video {
 .px-24 {
   padding-left: 6rem;
   padding-right: 6rem;
+}
+
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .pb-10 {
@@ -1264,6 +1277,10 @@ video {
     width: 7rem;
   }
 
+  .md\:w-8 {
+    width: 2rem;
+  }
+
   .md\:max-w-sm {
     max-width: 24rem;
   }
@@ -1320,6 +1337,11 @@ video {
   .md\:px-36 {
     padding-left: 9rem;
     padding-right: 9rem;
+  }
+
+  .md\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .md\:text-left {
