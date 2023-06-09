@@ -8,27 +8,75 @@
   </head>
   <body>
     <div class="flex items-center justify-center h-screen bg-cyan-100">
-      <div class="flex flex-col bg-yellow-500 h-64 w-auto">
-        <div class="flex flex-row justify-end">
+      <div
+        class="flex flex-col bg-yellow-500 m-3 pt-40 px-36 border border-yellow-500 rounded-2xl"
+      >
+        <div class="flex flex-row justify-end space-x-10">
           <div class="flex bg-yellow-300">Vector</div>
           <div class="flex bg-green-200">Illustrations</div>
           <div class="flex bg-red-200">Images</div>
           <div class="flex bg-purple-200">Icons</div>
         </div>
-        <div class="flex flex-row bg-white mx-auto my-auto">
+        <div class="flex flex-row justify-between pt-28 pb-4">
           <div class="flex flex-row mx-2">
-            <input type="search" />
+            <input
+              type="search"
+              class="border border-black"
+              placeholder="Search"
+            />
           </div>
-          <div class="flex flex-row bg-yellow-200">
-            <button>Upload</button>
+          <div class="flex flex-row">
+            <button
+              class="border border-black px-12 py-3 rounded-md bg-black text-white text-lg"
+            >
+              Upload
+            </button>
           </div>
         </div>
-        <div class="flex flex-row">
-          <div class="flex">
-            <img src="../images/img.png" alt="" class="h-40" />
+
+        <!-- Image container -->
+        <div class="flex flex-row m-4 space-x-4 mb-40">
+          <div class="">
+            <img
+              src="../images/imageGallery Images/image1.jpg"
+              alt=""
+              class="object-scale-down h-54"
+            />
           </div>
           <div class="flex">
-            <img src="../images/headphone.png" alt="" class="h-40" />
+            <img
+              src="../images/imageGallery Images/image2.jpg"
+              alt=""
+              class="object-scale-down h-54"
+            />
+          </div>
+          <div class="flex">
+            <img
+              src="../images/imageGallery Images/image3.jpg"
+              alt=""
+              class="object-scale-down h-54"
+            />
+          </div>
+          <div class="flex">
+            <img
+              src="../images/imageGallery Images/image4.jpg"
+              alt=""
+              class="object-scale-down h-54"
+            />
+          </div>
+          <div class="flex">
+            <img
+              src="../images/imageGallery Images/image5.jpg"
+              alt=""
+              class="object-scale-down h-54"
+            />
+          </div>
+          <div class="flex">
+            <img
+              src="../images/imageGallery Images/image6.jpg"
+              alt=""
+              class="object-scale-down h-54"
+            />
           </div>
         </div>
       </div>
